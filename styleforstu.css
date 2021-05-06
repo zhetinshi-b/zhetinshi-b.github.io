@@ -1,0 +1,89 @@
+@font-face {
+    font-family: "myfont-regular";
+    src: url(myfont.ttf);
+   }
+body{
+    margin: 0px;
+    padding-right: 70px;
+    padding-left: 70px;
+    font-family: "myfont-regular", sans-serif;
+}
+
+
+h1, h2, h3, p, a{
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+ul, li, div{
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 7px;
+}
+.lang{
+    display: flex;
+    align-items: center;
+}
+.lang a{
+    transition: all 1s ease;
+}
+.lang a:hover{
+    border-bottom: 1px solid;
+}
+.lang img{
+    width: 2px;
+    height: 20px;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+.kaz{
+    color: #454545;
+}
+.header h1{
+    font-family: "googlesans-regular", sans-serif;
+}
+.main{
+    display: flex;
+    margin-top: 45px;
+}
+.main h1{
+    text-align: center;
+    margin-bottom: 175px;
+}
+p{
+    padding-bottom: 50px;
+}
+.main img{
+    margin-right: 70px;
+    transition: all 0.5s ease;
+}
+.main img:hover{
+    transform: scale(1.03);
+}
+@media screen and (max-width: 800px) {
+    .main{
+        justify-content: center;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .main img{
+        margin: 0px;
+        margin-bottom: 30px;
+    }
+    .main h1{
+        margin-bottom: 30px;
+    }
+    .p{
+        text-align: center;
+    }
+}
+@media screen and (max-width: 500px) {
+    .main img{
+        width: 125%;
+    }
+}

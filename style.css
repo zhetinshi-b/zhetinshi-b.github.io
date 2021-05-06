@@ -1,0 +1,77 @@
+@font-face {
+    font-family: "myfont-regular";
+    src: url(myfont.ttf);
+   }
+body{
+    margin: 0px;
+    padding-right: 70px;
+    padding-left: 70px;
+    font-family: "myfont-regular", sans-serif;
+}
+
+h1, h2, h3, p, a{
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+ul, li, div{
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 7px;
+}
+.lang{
+    display: flex;
+    align-items: center;
+}
+.lang a{
+    transition: all 1s ease;
+}
+.lang a:hover{
+    border-bottom: 1px solid;
+}
+.lang img{
+    width: 2px;
+    height: 20px;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+.kaz{
+    color: #454545;
+}
+.header h1{
+    font-family: "googlesans-regular", sans-serif;
+}
+.main{
+    margin-top: 57px;
+}
+.main h1{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.ucheniki{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.imya{
+    background: black;
+    margin-bottom: 40px;
+    transition: all 0.7s ease;
+}
+.imya:hover{
+    box-shadow: 0 20px 40px rgb(0 0 0 / 30%);
+    transform: scale(1.05);
+}
+.imya h1{
+    color: white;
+    padding-bottom: 7px;
+    margin-bottom: 0px;
+}
+.imya img{
+width: 100%;
+}
